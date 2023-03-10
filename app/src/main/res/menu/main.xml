@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/action_search"
+        android:title="Home"
+        android:icon="@drawable/logo"
+        app:showAsAction="always"
+        android:orderInCategory="1"/>
+
+
+    <item android:id="@+id/action_settings"
+        android:title="Dad joke"
+        android:icon="@drawable/mfalcon"
+        app:showAsAction="always"
+        android:orderInCategory="2"/>
+
+    <item android:id="@+id/nav_exit"
+        android:title="Exit"
+        android:icon="@drawable/mfalcon"
+        app:showAsAction="never"
+        android:orderInCategory="3"
+        />
+
+</menu>
